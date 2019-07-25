@@ -18,7 +18,7 @@ function findChildren() {
 }
 
 function addClass(name, elem) {
-	arr = elem.className.split(" ");
+	let arr = elem.className.split(" ");
 	if (arr.indexOf(name) == -1) {
 		elem.className += " " + name;
 	}
